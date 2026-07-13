@@ -1,0 +1,13 @@
+target/
+*.jar
+*.jar.original
+*.class
+.mvn/wrapper/maven-wrapper.jar
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+*.log
+logo-b64.txt
+.claude/
