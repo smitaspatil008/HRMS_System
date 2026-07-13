@@ -297,7 +297,7 @@ tr:hover td{background:rgba(232,97,26,.03)}
 <div class="toast-container" id="toasts"></div>
 
 <script>
-const API = 'http://localhost:9090/ivhrms';
+const API = window.location.origin + '/ivhrms';
 let users = [], roles = [];
 
 function switchTab(tab) {
